@@ -27,6 +27,3 @@ def aim(x_pos, y_pos, distance):
     v_angle = calculate_v_angle(abs_distance, elevation)
 
     return h_angle, v_angle
-
-
-print(aim(300, 0, 3))
