@@ -8,7 +8,7 @@ from vardata import *
 def calculate_polynomial(x1, y1):
     a = -(x1 ** 2 * G) / (2 * V ** 2)
     b = x1
-    c = -(x1 ** 2 * G) / (2 * V ** 2) - y1 + INIT_ELEVATION
+    c = -(x1 ** 2 * G) / (2 * V ** 2) - y1 + CANNON_ELEVATION
     return a, b, c
 
 
